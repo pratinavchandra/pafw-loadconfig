@@ -19,7 +19,7 @@ load config partial mode merge from-xpath /config/devices/entry[@name='localhost
 ```text
 load config partial mode merge from-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/network/virtual-router to-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/network/virtual-router from <config-file.xml>
 ```
-### Services
+### Service Objects
 ```text
 load config partial mode merge from-xpath /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='<Device-group>']/service to-xpath /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='<Device-group>']/service from <config-file.xml>
 ```
