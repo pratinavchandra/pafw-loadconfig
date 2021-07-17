@@ -11,7 +11,7 @@ load config partial mode merge from-xpath /config/devices/entry[@name='localhost
 ```text
 load config partial mode merge from-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone to-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone from <config-file.xml>
 ```
-### Virtual Router
+### Virtual Routers
 ```text
 load config partial mode merge from-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/network/virtual-router to-xpath /config/devices/entry[@name='localhost.localdomain']/template/entry[@name='<Template>']/config/devices/entry[@name='localhost.localdomain']/network/virtual-router from <config-file.xml>
 ```
