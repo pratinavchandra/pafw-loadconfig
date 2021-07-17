@@ -3,6 +3,7 @@ Clone repository -
 git clone https://github.com/pratinavchandra/pafw-loadconfig.git
 ```
 # Palo Alto Firewalls - Load XML config CLI cheatsheet
+Run in configure mode
 ### Tags
 ```text
 load config partial mode merge from-xpath /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='<Device-group>']/tag to-xpath /config/devices/entry[@name='localhost.localdomain']/device-group/entry[@name='<Device-group>']/tag from <config-file.xml>
